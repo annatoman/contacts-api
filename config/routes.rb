@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  get "/contacts", controller: "contacts", action: "contact_names"
+  get "/one_contact", controller: "contacts", action: "one_contact"
 
-  get "/one_contact", controller: "contacts", action: "all_contacts"
+  get "/all_contacts", controller: "contacts", action: "all_contacts"
 end
